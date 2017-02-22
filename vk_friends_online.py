@@ -1,3 +1,4 @@
+import getpass
 import vk
 
 
@@ -9,7 +10,7 @@ def get_user_login():
 
 
 def get_user_password():
-    return input('Enter your password: ')
+    return getpass.getpass(prompt='Enter your password: ')
 
 
 def get_online_friends(login, password):
