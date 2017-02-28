@@ -1,15 +1,34 @@
 # Watcher of Friends Online
 
-The script checkes and prints to console your online friends in the social networking vk.com
+The script checks and prints to console your friends online in the social networking vk.com
+
+# Requirements
+
+To use the script you need Python 3.5 and package from requirements.txt.
+You can install it this way:
+
+`$ pip install -r requirements.txt`
 
 # Usage
 
+When all requirements are done you can run the script with this command:
+
+`$ python vk_friends_online.py`
+
+After that enter your login and password:
+
+```#!bash
+
+Enter your login: example@gmail.com
+Enter your password: password123
+
+```
+
+That's all! Here is your friend's online list!
 ```#!bash
 
 $ python vk_friends_online.py
 
-Enter your login: example@gmail.com
-Enter your password: password123
 Your friends online:
 Ivanov Ivan
 Petrov Petr
